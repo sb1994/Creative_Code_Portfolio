@@ -80,26 +80,18 @@ function createTextGraphic() {
 
 function draw() {
   background(0, 50);
-  // noLoop()
-  // noFill();
-  // noStroke();
-
-  // image(textImg,0,0)
   for (let i = 0; i < textPoints.length; i++) {
     if (shape === "Line") {
       const pint = textPoints[i];
 
       stroke(0, 52, 200);
-      // strokeWeight(4);
       line(Math.floor(pint.x) - 300, pint.y, mouseX, mouseY);
     }
     if (shape === "Rectangle") {
       if (filled) {
         const pint = textPoints[i];
-        // noFill();
         fill(0, 52, 200);
         rectMode(CENTER);
-        // strokeWeight(4);
         rect(
           Math.floor(pint.x) - 300,
           pint.y,
@@ -118,7 +110,6 @@ function draw() {
     if (shape === "Circle") {
       if (filled) {
         const pint = textPoints[i];
-        // noFill();
         fill(0, 52, 200);
         ellipse(Math.floor(pint.x) - 300, pint.y, mouseX, mouseY);
       } else {
