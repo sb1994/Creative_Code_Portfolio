@@ -1,9 +1,3 @@
-/* Creative Coding
-   Edel Prior
-   October 2018 (week 3)
-   Notes
-*/
-
 function setup() {
 
   let canvas = createCanvas(windowWidth,windowHeight);

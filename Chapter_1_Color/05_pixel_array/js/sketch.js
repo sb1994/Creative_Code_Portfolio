@@ -1,9 +1,3 @@
-/* Creative Coding
-   Edel Prior
-   October 2018 (week 3)
-   Notes
-*/
-
 let img;
 let colors = [];
 let sortMode = null;
